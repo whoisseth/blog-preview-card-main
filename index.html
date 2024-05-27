@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Blog preview card</title>
+    <link href="./src/output.css" rel="stylesheet" />
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <!-- <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style> -->
+  </head>
+  <body
+    class="bg-[hsl(47,88%,63%)] min-h-screen flex items-center justify-center"
+  >
+    <!-- card -->
+    <main class="relative w-[320px]">
+      <!-- shadow -->
+      <div
+        class="bg-black h-full w-full absolute top-2 -right-2 rounded-xl"
+      ></div>
+      <div
+        class="border relative border-black rounded-xl p-3 bg-white flex flex-col gap-4"
+      >
+        <img
+          src="/assets/images/illustration-article.svg"
+          alt="card-img"
+          class="rounded-xl"
+        />
+        <section class="flex flex-col gap-2">
+          <!-- tag -->
+          <div
+            class="px-3 py-1 rounded bg-[hsl(47,88%,63%)] font-bold text-black w-fit text-sm"
+          >
+            Learning
+          </div>
+          <p class="text-sm">Published 21 Dec 2023</p>
+          <h2 class="text-xl font-bold">HTML & CSS foundations</h2>
+          <p class="text-sm text-[hsl(0,0%,50%)]">
+            These languages are the backbone of every website, defining
+            structure, content, and presentation.
+          </p>
+        </section>
+        <footer class="flex gap-2 items-center">
+          <img
+            src="/assets/images//image-avatar.webp"
+            alt="avatar"
+            class="size-8"
+          />
+          <h2 class="font-bold">Greg Hooper</h2>
+        </footer>
+      </div>
+    </main>
+
+    <!-- <h1 class="text-3xl font-bold underline">Hello world!</h1>
+    <p class="bg-red-400">
+         These languages are
+      the backbone of every website, defining structure, content, and
+      presentation. 
+    </p> -->
+  </body>
+</html>
